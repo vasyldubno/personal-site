@@ -3,14 +3,14 @@
 	"tabWidth": 2,
 	"useTabs": true,
 	"semi": true,
-	"trailingComma": "all",
+	"trailingComma": "none",
 	"plugins": ["@trivago/prettier-plugin-sort-imports"],
 	"importOrder": [
 		"<THIRD_PARTY_MODULES>",
-		"^@/config/(.*)$",
-		"^@/services/(.*)$",
-		"^@/shared/(.*)$",
+		"^@/shared(.*)$",
+		"^@(.*)$",
 		"^./(.*)$"
 	],
-	"importOrderSeparation": true
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
 }
