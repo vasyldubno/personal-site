@@ -1,0 +1,10 @@
+.link {
+	max-width: 300px;
+	border: 1px solid black;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	gap: 1rem;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.link {
+	padding: 1rem;
+	transition: all 0.1s ease-in-out;
+}
+
+.link:hover {
+	font-weight: 700;
+}
+
+.active {
+	font-weight: 700;
+}
